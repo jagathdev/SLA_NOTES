@@ -1,4 +1,5 @@
 // Directors
+
 // 1. Lokesh Kanagaraj
 // 2. S.Shanker
 // 3. Nelson
@@ -70,6 +71,7 @@ const shanker = [
                     }
                 }
             }
+
         }
     },
     {
@@ -175,7 +177,7 @@ dirSubmit.addEventListener("click", (e) => {
 
     const director = [lokesh, shanker, Nelson]
 
-    director[dir].forEach((e) => {
+    director[dir].map((e) => {
 
         // console.log(e.movie.mainActors.sideActors.music.salary.hero)
         const movieName = e.movie.name;
@@ -208,6 +210,4 @@ dirSubmit.addEventListener("click", (e) => {
         `;
     });
 
-})
-
-
+});

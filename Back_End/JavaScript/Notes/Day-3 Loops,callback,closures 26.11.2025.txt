@@ -1,0 +1,71 @@
+var a=10  its a expression
+
+if statement also logical or comparison operator.
+
+if why retrun use
+
+For loop is very important for interview
+
+let only use for functional program
+
+FUNCTION
+
+Function call
+opencall ---> functionname()
+eventcall ---> event =functionname
+
+Function Return
+return any value
+
+Lecical Scope:- 
+
+its kind of variable accesability.
+whether inner function access a outer function variable
+
+const outer=()=>{
+	let a=10;
+    const add =(){
+    console.log(a)
+      }
+add()
+}
+
+Closures Functions
+
+a function remembering a its outer scope variable. even after the outer function has finish executing.
+
+const createAcc=()=>{
+let balance=1000;
+return {
+const deposite=(amount)=>{
+balance +=amount
+console.log("Balance :" , balance)
+
+const withdraw=(amount)=>{
+   
+}
+}
+}
+}
+
+closure function is inner function access outter function but outterfunction is not access inner function. its remember the value
+closurre is used to create a private data
+
+
+Tasks:-
+
+1. for loop 3 program how to perform each line
+2. higher order array methods find,filter,include,map,forEach,reduce
+all method
+
+
+
+
+
+
+
+
+
+
+
+

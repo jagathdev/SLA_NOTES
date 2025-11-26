@@ -1,5 +1,5 @@
 
-var data = "i am a string Variable"
+var data:string = "i am a string Variable"
 
 console.log(data)
 
