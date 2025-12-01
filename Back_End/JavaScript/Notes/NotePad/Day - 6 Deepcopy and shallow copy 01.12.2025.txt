@@ -1,0 +1,51 @@
+Shalow Copy and Deep Copy :-
+
+Shalow Copy:-
+
+spread,slice,assign
+
+Only top level values are copied but inner objects and array not copied - instead, their reference is copied.
+
+Example:-
+
+let arr=[1,2,[3,4,5]]
+
+let newarr=[...arr]
+
+newarr[2][0]=100;
+newarr[0]=10
+
+console.log(arr)
+console.log(newarr)
+
+output :-
+
+[ 1, 2, [ 100, 4, 5 ] ]
+[ 10, 2, [ 100, 4, 5 ] ]
+
+nested array is reference the original array so you can change nested array its also change a original array.
+
+but you change normal array its not change the original array its a shallow copy.
+
+Deep Copy :-(original not affcted)
+
+structuredClone Method
+
+want defenition 
+
+its not affacted original array its only change a copy array.
+
+const arr=[1,2,3,[4,5,6]] 
+
+const deepcopy=JSON.parse(JSON.stringify(arr)) //copy a array
+
+console.log("deepcopy",deepcopy)
+
+deepcopy[2]
+
+shallow --> nest and original array affact
+
+Deep --> original not affact 
+
+
+
