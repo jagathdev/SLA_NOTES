@@ -66,7 +66,6 @@
 // 2. Spread Operator
 
 const array = [1, 2, 3, 4, 5];
-
 const copyArray = array.slice();
 
 copyArray[2] = 30;
@@ -75,9 +74,19 @@ console.log(copyArray);
 
 const nestedArray = [2, 4, 6, [1, 3, 5]];
 
+const concatnestedArray = [].concat(nestedArray)
+console.log(concatnestedArray)
+
+concatnestedArray[3][1] = 30;
+concatnestedArray[2] = 60;
+
+console.log(concatnestedArray)
+console.log(nestedArray)
+
 const nestedCopyArray = nestedArray.slice();
 
-nestedCopyArray[3][2] = 50; // its also changed original array. because, it's shallowCopy
+nestedCopyArray[3][2] = 50;
+// its also changed original array. because, it's shallowCopy
 
 console.log(nestedCopyArray)
 
@@ -98,8 +107,8 @@ let nestedObject = {
 // nestedCopyObject.school.private.teacher.name = "Jai suriya"
 // nestedCopyObject.company = { doctor: { doctor: "doctor", salary: "1 lakh" } }
 
-// this is wrong line 34 to 37
 let nestedCopyObject = Object.assign({}, nestedObject)
+
 nestedCopyObject.school.private.teacher.age = 35
 nestedCopyObject.company = { doctor: { doctor: "doctor", salary: "1 lakh" } }
 
