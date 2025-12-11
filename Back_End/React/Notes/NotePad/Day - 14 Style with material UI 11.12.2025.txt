@@ -1,0 +1,37 @@
+Metirials UI
+
+AI Tools:-(Vibe Code)
+
+
+1. Intrative AI --> you hava to give the intraction and explain the process
+then AI give the code only.and Notes some instruction to do your files.
+
+1.deep - style orianted
+2.claud - Notes related
+3.Chat(open AI) - problem solving
+4.google gemini - all
+
+large set of data handling
+
+AI Agents --> Automatecally do the process for humans
+setofinstractions will give to the machie or domin or website or app.
+
+It completly take the responsible and take your syste so make the file and folder and project and everything
+that the agent will do
+
+they make projecy o vite or what every
+they make app - with bacjend support
+
+You just intract with the AI - make 
+
+1. system Agent 
+
+2. Domain Agent
+
+wrap ai
+manus ai
+bold ai
+lovable Ai
+replit - app - deploy
+
+
