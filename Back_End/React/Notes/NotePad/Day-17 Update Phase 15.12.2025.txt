@@ -1,0 +1,66 @@
+Human and webpage Intraction 
+
+1. Button, where ever the element click -
+
+2. Type in input -
+
+3. Form Submit -
+
+4. Move the Mouse -
+
+5. Press keyboard - 
+
+Event - 2types
+
+1. inline Events - onclick()
+
+DOM Event - addEventLeceners('click',()=>{}) 
+
+2. Buttons
+
+1.onClick('functionName') :-
+you write a function - it will perform on you click action
+
+Why use React :-
+
+dom process is code length over so avoid this 
+
+alert and console.log is outside of browser events its directly come in v8 engine
+
+
+2.onSubmit():- (only for form)
+
+3. onChange() :- (only for form elements -select,input,combobox,dropdown)
+
+Event Object(first perameter) :-
+
+where is the Event Object in your v8 engine and its on the browser.
+
+in your webpage you have any kindof events that all the process store as object.
+
+Where you init - if you have a function or any function it name as what ever you want but it showing
+implecit method take as event object.
+
+where you called - 
+function params - very first prams are a 
+event handling
+
+<form action :"" methods:""></form>:-
+
+query string(?)
+
+action: data handle 
+methods: get(its default only text value only pass,and not secure),post
+type: text,password,number
+name: unique name 
+value: all datas are stored
+class: design purpose
+
+
+Task :-
+
+1. what kinds of event you know ?
+
+onClick,onSubmit,onChange,onMouseOver,onMouseDown,onMouseEnter
+
+
