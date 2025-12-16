@@ -1,0 +1,89 @@
+Function Process in React 
+
+intractions making the process via functions
+   
+
+Event in React
+onClick
+onSubmit
+onChange
+
+Hooks Info
+
+	Hooks is a special function that perform a spl role in the react projects.
+the hooks are handle datas or memory,functions,speed,intacrity,efficiant all the processs in react with readble codes.
+
+
+2 types of hooks 
+
+1. Memory orianted - useState(),useRef(),useReduce(),useContext()
+
+2. Process orianted - useEffect,useLayoutEffact(),useMemo(),useCallback()
+
+Other Library Hooks - react-router-dom
+
+useNavigate()
+useLocaiton()
+usePrams()
+
+State
+1. state is a object to store your memory or datatype. 
+2. store the values and when state is updated your functional component is also rerender.
+3. State are mutable(changeable) - every change rerender your component.
+4. state is only using in class component.
+
+syntax:-
+
+this.state({count:0})
+
+when you update the state you can use setState();
+
+then you come to the functional process you can use useState() insted of state.
+
+
+UseState
+
+useState is a hook in a react then it will do the same process of state but 
+when you come to the functional component you can access you state and your state
+update function in the same place that is called useState().
+ 
+its a tempory data
+syntax:-
+
+const[user,setUser]=useState("Jagath");
+
+type of useState --> array holding two datas
+
+wehn you update the state your component is rerender.
+
+when you update the function your state will change.
+
+
+React Life Cycle Method
+
+1. Mouting - creation (first time render)
+in class component react lifecycle method are  component didMount function
+in functional component ---> useEffact().
+
+life cycle process ---> componetDidMount, componentDidUpdate, componentWillUnmount.
+
+redux,props and useContext
+
+UI --> Intraction Tag  --> Event --> function --> state updatte function --> state update --> component rerender 
+--> te changed content is showing tempraverly in UI.
+
+
+TASK :-
+
+Creation Phase:-
+
+1. Make a component and using the React router Dom.using state
+
+primitive and non primitive declare and showing
+
+Update phase:-
+
+1. Make a component and using the React router Dom.using state
+
+primitive and non primitive declare and showing and update using event and function.
+           
