@@ -1,0 +1,39 @@
+NavLink :-
+
+NavLink is a advaced version of Link. it knows the current route. mainly used for Navbar/Menus
+
+isActive --> its a default react object
+isBending --> 
+
+highleting your link 
+
+a
+Link
+useParams()
+useLocation()
+useNavigate()
+
+className={({isActive})=>{isActive}}
+
+useNavicate - when you use the function when you click or change or when ever you using the event or functions
+if you need to move another component you can use useNavigate() Hook.
+
+its not use directly you can create one expression and use that expresion on this hook.
+
+useParams()
+when you use route based url you want dynamic datas that showing in you url based on the url to showing the datas to other components.
+
+
+variable :-
+variable is a temporary data only in memory.\you using in react dosen't track this values. react cont process it. and its only showing 
+the datas in the screen. it never rerender the component.
+
+state :-
+its a object orianted datas process + rerender the component every chnge and reacat easily. track the updated calues and showing to the screen.
+
+
+Task:-
+1. <NavLink to='' className={({props})=>props?"true design":"false design"}> <NavLink/>  15times
+
+
+
