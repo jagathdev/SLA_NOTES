@@ -1,0 +1,7 @@
+prod - productin server
+
+vannabarribility - uduruvum thanmai
+
+scrollIntoView() ---> 
+
+same page but dont reload 
