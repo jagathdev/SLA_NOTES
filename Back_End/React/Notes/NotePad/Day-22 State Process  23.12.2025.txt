@@ -1,0 +1,23 @@
+State - it is a object. in class components the main work is to showing the datas on screen.
+state is readonly. when the state is becoe the update mode its rerender the components.
+
+when we use the Functional components useState() to allow the
+stat and update function in the same function hooks that is called usestate.
+
+we can declare or init - using primitive and non primitive data types.
+
+when you want to use useState
+
+use state is create or store data for anywhere.
+you can store a outside data or create a data using state.
+
+reducx - global state  
+
+collection of object - array of object.
+
+Fetch :-
+
+it's a function is using promise method. it used for get and store the datas from the outside of the browser like database or 3rd party other api.
+
+
+
