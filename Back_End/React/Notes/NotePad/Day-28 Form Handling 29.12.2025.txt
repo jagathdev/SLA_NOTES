@@ -1,0 +1,6 @@
+Controlled input singleform Handling
+reactform is single spource of truth. all inputs are connected
+to one state object. updated via finally handling with onsubmit.
+
+validataion single process and process form submit.
+
