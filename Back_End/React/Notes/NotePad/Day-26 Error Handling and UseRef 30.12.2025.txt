@@ -1,0 +1,19 @@
+csr - clint side rendering
+ssr - serverside rendering
+
+
+useRef is a react Hooks its gives a mutable object. its does not rerender the component mostly used to 
+dom element directly. so without rerender component.
+
+Ref Syntax:-
+
+const myRef=useRef(0)
+
+its return a current 
+
+
+1. h1 h1 button click showw the different title
+2. Hide and Show ref
+3. take the value from the form.
+
+
