@@ -1,1 +1,45 @@
 2015- es6 Major update
+
+now 15th update for javascript.
+
+
+email validataion 
+
+if(!from.email.includes("@") || !from.email.includes(".") ){
+
+setError("Password length min 8")
+}
+else if(form.password>=8){
+setError("Password length min 8")
+}
+else{
+setform({""})
+}
+
+
+uuseEffect(()=>{
+
+},[])
+
+
+
+
+
+useRef add tailwind you can use classlist 
+
+
+const inputref=useRef(null)
+
+const boxRef=useRef("")
+
+
+
+
+
+
+
+
+
+
+
+
