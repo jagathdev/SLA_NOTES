@@ -1,0 +1,13 @@
+Custom Hooks:-
+
+Reusable logic using existing hooks.
+
+perameter , Argument, default Argument
+
+
+Es6+ Features ---> if you have send objct bracket dont have value.{increment} its automatically taken a value
+{increment:increment}
+
+custom hook is used to you can set argument and perameter for each component. but you can use props and any other method 
+if one change that is change all component . but you can use custom hook you can manage all datas.
+
