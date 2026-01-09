@@ -1,0 +1,51 @@
+UseReducr()- Hooks manage complx state by handling state updats throught a reducr function and dispatched actions.
+in reducer switch case.
+
+initial value=0
+state ,action
+reducer function
+
+
+syntax:-
+
+const [state,dispatch]=useReducer(reducr,initvalue)
+
+Redux is used to manage shared global state is a predictable way. 
+
+keywords 
+
+store - central state
+action - what happen in the function
+reducer - how state changes
+dispatch - send the actions
+selector - read state 
+
+RTK - REDUX TOOL KIT
+
+RTK is a recommented way to write redux logics. 
+
+Create slice
+
+configureState 
+
+Auto Reducers & Actions
+
+ 
+first initial value
+
+
+state,dispatch,reducerFunction,initialvalue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
