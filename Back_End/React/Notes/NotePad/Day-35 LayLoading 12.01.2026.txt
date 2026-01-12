@@ -1,0 +1,42 @@
+Lazy Loading :-
+
+load the component only when it needed, not in staning of th app.
+
+It until the bundles and loading.
+
+Fallback UI.
+used to High performance.
+it only used for large components
+
+gmail front page loading with design. so it lazy loading.
+
+NODE :-
+-------
+run time - filesyste,logic and compailer.
+
+Node js is a javascrit run time environment. that allows us to run javascript outside of the browser.
+node access the system and file handling and os related process.
+
+System Arhitecture:-
+
+its a single thirded, event driven and non Blocking
+
+COre compoennts:-
+
+event loop - async process
+library 
+node api
+Node Moudles - reusable block of code.
+Moduler architecture 
+3 tyeps -
+
+1. Core Module 
+http moudle,file system(FS) Moudle, Path Module and OS Module.
+
+2. Local Module
+creating own
+
+3. Third Party Module
+express - server 
+mongoose
+.env
