@@ -40,3 +40,8 @@ creating own
 express - server 
 mongoose
 .env
+cors
+node mon
+be crypt
+Json webtoken
+multer - image process

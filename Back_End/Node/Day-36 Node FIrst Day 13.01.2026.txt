@@ -1,0 +1,74 @@
+
+3:02 pm 13/01/2026
+
+Es modules
+
+require medthod is used to import and export methods
+
+Core Modules :-
+
+1. file system moudle :-
+
+we can access the files your internal local machine to access your files we have multiple
+buildin functions are there. 
+
+read,write,update and delete files and access the folders 
+
+file upload handling and log creation. and reading the confing file store a data without DB.
+
+csv and json file operations
+
+fs module is used to intract.
+
+always use import and export.
+
+important buildin functions :-
+
+appendFile()
+
+appendFileSync()
+
+mkdir()
+
+read()
+
+readSync()
+
+readFile() - read a file
+
+readlink()
+
+rename()
+
+rm()- remove a file
+
+unlink() - delet a file
+
+
+UTF-8 - Unified transfrmation formate
+
+
+
+
+2. os moudle :-
+
+3. path module :-
+
+4. process and env :-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
