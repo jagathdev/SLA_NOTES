@@ -48,16 +48,168 @@ unlink() - delet a file
 UTF-8 - Unified transfrmation formate
 
 
-
-
 2. os moudle :-
 
 3. path module :-
 
 4. process and env :-
 
+------------------------------------------------------------------
+
+Node.js Core Modules – Interview Notes
+
+⭐ ES Modules vs CommonJS
+ES Modules (Recommended Modern Syntax)
+
+Use import and export
+
+Example:
+
+import fs from "fs";
+export function test() {}
+
+CommonJS (Older Syntax)
+
+Uses require() and module.exports
+
+Example:
+
+const fs = require("fs");
+module.exports = { test };
+
+🔥 Core Modules in Node.js
+
+1️⃣ File System Module (fs)
+Purpose
+
+Used to interact with files and folders in your local machine.
+
+Use Cases
+
+Read / write / update / delete files
+
+Manage folders
+
+File uploads & logs
+
+Config file operations
+
+Work with CSV, JSON data
+
+Store small data without a database
+
+Two Types
+
+Asynchronous (Non-blocking) → Fast, recommended
+
+Synchronous (Blocking) → Used when execution must stop
+
+Important Built-in FS Functions
+
+Function	Description
+
+appendFile()	Add data to a file (async)
+appendFileSync()Add data (sync)
+mkdir()		Create a folder
+read()		Low-level file reading
+readSync()	Sync version
+readFile()	Read a file (async)
+readlink()	Read symbolic link
+rename()	Rename/move a file
+rm()		Remove a file
+unlink()	Delete a file
+
+Character Encoding
+
+UTF-8 → Unified Transformation Format
+
+Standard encoding format used in most file operations.
+
+2. OS Module (os)
+
+Purpose
+
+Used to get information about the system and hardware.
+
+Common Functions
+
+os.type() – Returns OS name
+
+os.platform() – Returns platform (win32, linux)
+
+os.totalmem() – Total memory
+
+os.freemem() – Free memory
+
+os.cpus() – CPU details
+
+os.homedir() – Home directory
+
+os.uptime() – System uptime
+
+Use Cases
+
+Monitoring tools
+
+Logging server metrics
+
+Load balancing decisions
+
+3️. Path Module (path)
+
+Purpose
+
+Helps handle file paths safely across OS.
+
+Important Methods
+Method	Purpose
+path.join()	Join paths safely
+path.resolve()	Get absolute path
+path.basename()	Get file name
+path.extname()	Get file extension
+path.dirname()	Get parent folder
+Why we use path module
+
+OS-safe
+
+Avoids slash (/) issues
+
+Necessary for file operations
+
+4️. Process & Environment (process, env)
+Purpose
+
+Interact with the running Node.js process.
+
+Important Use-Cases
+Feature	Description
+process.env	Access environment variables (.env files)
+process.argv	Read CLI arguments
+process.cwd()	Current working directory
+process.exit()	Stop the process
+process.memoryUsage()	Memory usage info
+Common Usage Example
+console.log(process.env.PORT)
 
 
+Used in:
+
+Authentication keys
+
+API Keys
+
+DB credentials
+
+Environment-based configuration
+
+Dev / Prod modes
+
+⭐ Very Short Summary for Interview (You can speak this)
+
+Node.js provides core modules like fs, os, path, process and env.
+The fs module allows reading, writing, updating, deleting files and folders.
+OS gives system-level information, Path helps handle file paths in a cross-platform way, and Process helps access environment variables and control node execution.
+I use ES Modules (import/export) because Node now supports them natively.
 
 
 
