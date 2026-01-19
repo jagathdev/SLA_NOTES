@@ -1,0 +1,73 @@
+Node - web server 
+
+HTTP 
+text only process and json formate is allowed.
+
+NODE Server :-
+
+npm init -y
+
+install default package.json file so give -y
+
+common js method is require method
+
+type- module use import and export 
+
+start:"node server.js"
+
+node server.js
+
+crocs - webserver handle 
+
+server setup
+
+const server=http.createServer()
+
+server.listen(5000,()=>{
+console.log("working")
+})
+
+FS :-
+
+READ FILE :-
+
+fs.readFile("data.txt","utf-8"",(err,data)=>{
+if(err){
+
+console.log(err)}
+}else{
+
+console.log("data",data.txt)
+}
+
+
+WRITE FILE :-
+
+fs.writeFile("data.txt","your data",(err,data)=>{
+if(err){
+console.log(err)}
+}else{
+console.log("file Created and that 2nd perameter is saved that file path")
+}
+
+
+APPEND FILE :-
+
+fs.appendFile("data.txt","your data",(err,data)=>{
+if(err){
+console.log(err)}
+}else{
+console.log("file Edited and that 2nd perameter is saved that file path")
+}
+
+
+base name
+extention name
+directary name (file name)
+join
+resolve(absolute path)
+
+
+npm i nodemon - automatic server restart 
+
+package.json --> dev:"nodemon server.js"
