@@ -11,7 +11,7 @@ install default package.json file so give -y
 
 common js method is require method
 
-type- module use import and export 
+type: module -->use import and export 
 
 start:"node server.js"
 
@@ -22,7 +22,6 @@ crocs - webserver handle
 server setup
 
 const server=http.createServer()
-
 server.listen(5000,()=>{
 console.log("working")
 })
@@ -36,9 +35,8 @@ if(err){
 
 console.log(err)}
 }else{
-
 console.log("data",data.txt)
-}
+})
 
 
 WRITE FILE :-
@@ -71,3 +69,5 @@ resolve(absolute path)
 npm i nodemon - automatic server restart 
 
 package.json --> dev:"nodemon server.js"
+
+
