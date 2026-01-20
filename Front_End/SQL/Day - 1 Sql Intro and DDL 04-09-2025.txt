@@ -35,13 +35,9 @@ DDL is used to define or modify the structure of database objects.
 ✅ DDL Commands
 
 CREATE → Create a new database or table.
-
 ALTER → Modify the structure of a table (add, modify, drop columns).
-
 DROP → Delete a database or table completely.
-
 TRUNCATE → Delete only data (keeps table structure).
-
 RENAME → Rename a table.
 
 🔹 Data Types
