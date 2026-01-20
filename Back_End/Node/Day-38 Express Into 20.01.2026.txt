@@ -1,0 +1,63 @@
+what is express :-
+
+Express is minimal and fast web frame work for node.js. to build api and web applications.
+it simplify routing and middleware.
+
+
+why use Express:-
+
+express js is a light weight nodejs frame work.it simplify routing and middleware.
+
+http module is limited routes. boiler code and hard to maintain.
+
+Express is a framework. express contol the application flow. and provide the complete structure.
+we follow the rules. you build the app.
+
+
+express is a bulk object.
+
+
+Express server setup:-
+
+server folder and use npm init -y
+and npm i express
+and npm i nodemon ---> server auto run if main file save it execute automatically.
+and 
+"start": "node",
+"dev": "nodemon server.js"
+
+"type": "module",
+.env ---> Environment Variable.
+and npm i dotenv
+and 
+server.js file import express const app = express();
+
+node, express default - 5000
+react vite - 5173
+react - 3000
+
+env file is very important file because its a sentive data.
+
+
+Route :-
+
+URL  + Method + Responce 
+
+Route 
+
+attach routes from another file into main server.
+
+Middleware is a req and res between one function.
+
+use its a middleware. between 2 function between run function name is use.
+
+
+Route Mounting :-
+
+express.use(apilink,anyName(Handler))
+
+const route=express.Router()
+
+route.post("/auth",controller)
+
+export --> controller()
