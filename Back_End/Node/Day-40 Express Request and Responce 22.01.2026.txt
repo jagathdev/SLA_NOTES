@@ -1,0 +1,18 @@
+
+Request Object
+
+body	- Form Data
+header	- Sensitive datas or cookies,seesion
+params	- added additional data form the button or process along with the form datas
+query	- search,pagination,product datas.
+
+Node ,express,server setting
+route setting - route mounting - /api
+api setting
+controller - req(params,query,body,headers) and res(status,text,json).
+
+
+
+
+
+contoller file nam is camle case
