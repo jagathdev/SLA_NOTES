@@ -1,0 +1,16 @@
+npm init -y -->packagae download
+
+
+scure method post front end to ndend data tranfer you have send more datas in post method
+
+but you have use other methods less datas only share.
+
+Header - you send a scurity and sensitive datas only send .
+
+TRY and Catch:-
+
+Error Handling or error Boundaries
+
+if you have write any code use try catch.
+
+Catch (first perameter is error object)
