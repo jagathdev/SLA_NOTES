@@ -1,0 +1,56 @@
+srver 5000 
+.env
+
+optional relational methods
+
+
+schema is a blue print of the document.it define the fields and types.
+we can add validation and control the data structure.
+
+
+Schema is a contructor is available in mongoose.
+mongoose.Schema({
+
+})
+
+Model :-
+
+Its created from schema - repersnts the collection used for DB operations
+and its provids the ORM Methods create,find,update,delete.
+
+
+
+server
+route
+controller
+
+ORM Method functions 
+
+Modal.create() - insert data
+
+find() - getall
+
+findOne()
+
+findById()- update using id
+
+findByIdUpdate()
+
+findOnAndUpdate()
+
+updateOne()
+
+updateMany()
+
+deleteOne()
+
+deleteMany()
+
+findByIdAndDelete()
+
+countDocuments()
+
+exits()
+
+save()
+
