@@ -1,0 +1,22 @@
+backend
+folders
+config 
+-db.js
+
+routes
+-dataRoutes.js
+
+controller
+-datacontoller.js
+
+model
+-dataModel.js
+
+files
+.env and server.js
+
+axios is the 3rd party library
+
+axios is a popular javascript library. its promise based library.use to make http request from the browser or from nodejs server.
+compare to api fetch function api. axious provide a simple syntax automatically json handling and better management.js object to object.
+
