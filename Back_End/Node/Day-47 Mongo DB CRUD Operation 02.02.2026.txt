@@ -1,0 +1,8 @@
+B-Crypt password Hashing Method.
+
+
+its used a solt round its default for 10 you can use any within 10.
+
+
+
+
