@@ -1,0 +1,59 @@
+o auth - google and github
+
+
+JWT Token - Json Web Token
+
+this is a secure token based authendication method. use to verify user after the login.
+when login is successful the server generate the signed token that contain user information that token is send to 
+client. the token is send to client via headers. jwt token is stateless.
+
+jwt token contain - header info -payload(user information), secret key
+
+Middle ware is a function that runs between request and responce in express.
+it an access to request responce and next function. it modify the request 
+
+next is the function inside the middle ware to pass the control to the next middle ware or another middle ware.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
