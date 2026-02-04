@@ -1,0 +1,7 @@
+Middle ware :-
+
+
+Middle ware its mostly used for(SSR) server side rendering
+CSR- client side rendering.
+
+
