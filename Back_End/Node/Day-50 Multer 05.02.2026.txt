@@ -1,0 +1,26 @@
+2:30 pm 05/02/2026 Final Day :-
+
+image save procss 
+local and cloud
+
+cloudinary :- backend image save website.
+
+multer is a package installer.
+;
+its use disk storageyou have using a middle ware.
+
+Cloud_name=
+Cloud_key=
+Cloud_secret=
+
+multer.diskstorage({destination:(
+	
+	(req,file,callbackFun)=>{
+callbackFun(err,'upload/')
+},
+filename:(req,file,callbackFun)=>{
+
+}
+
+
+)
